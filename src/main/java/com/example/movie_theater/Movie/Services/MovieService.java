@@ -1,6 +1,9 @@
-package com.example.movie_theater.Movie;
+package com.example.movie_theater.Movie.Services;
 
 import com.example.movie_theater.Exceptions.BusinnesException;
+import com.example.movie_theater.Movie.Models.Movie;
+import com.example.movie_theater.Movie.Validators.MovieValidator;
+import com.example.movie_theater.Movie.Repositorys.MovieRespostory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

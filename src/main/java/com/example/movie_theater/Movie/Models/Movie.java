@@ -1,12 +1,8 @@
-package com.example.movie_theater.Movie;
+package com.example.movie_theater.Movie.Models;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.Size;
-
-import java.time.LocalDate;
-import java.time.Year;
 
 @Entity
 @Table(name = "movie")

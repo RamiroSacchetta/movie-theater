@@ -1,16 +1,13 @@
-package com.example.movie_theater.Movie;
+package com.example.movie_theater.Movie.Controllers;
 
-import com.example.movie_theater.Exceptions.BusinnesException;
-import com.example.movie_theater.Exceptions.GlobalExceptionHandler;
+import com.example.movie_theater.Movie.Models.Movie;
+import com.example.movie_theater.Movie.Services.MovieService;
 import jakarta.validation.Valid;
-import org.apache.catalina.valves.JsonErrorReportValve;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.swing.text.html.Option;
 import java.util.List;
 import java.util.Optional;
 

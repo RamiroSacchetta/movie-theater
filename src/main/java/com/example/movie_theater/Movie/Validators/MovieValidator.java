@@ -1,4 +1,4 @@
-package com.example.movie_theater.Movie;
+package com.example.movie_theater.Movie.Validators;
 
 import com.example.movie_theater.Exceptions.BusinnesException;
 
